@@ -23,11 +23,12 @@ export default function CertificationContainer({title,img,duration}) {
         alt="Certificación Desarrollo Web"
         onClick={()=>showCertification(img)}
       />
+      <a href={img} className="hidden w-full max-md:flex">
       <img
-        className="w-full hidden max-md:flex"
         src={img}
         alt="Certificación Desarrollo Web"
       />
+      </a>
       <span>{duration}</span>
     </div>
   );

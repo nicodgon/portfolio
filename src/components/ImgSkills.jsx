@@ -14,16 +14,16 @@ import npmIcon from "../assets/images/icons/npm.svg";
 import PropTypes from "prop-types"
 
 export default function IconsSkills({colors,renderImg,stylesContainer}) {
-  const iconStylesContainer = "flex flex-col items-center w-52 h-20 gap-4 max-md:w-full max-md:h-40"
-  const iconStyles = "w-12 h-12 max-md:w-1/5 max-md:h-auto";
+  const iconStylesContainer = "flex flex-col items-center w-52 h-20 gap-4 max-md:w-full"
+  const iconStyles = "w-12 h-12";
   
   return (
     <section className={`${stylesContainer} items-center justify-center flex-col gap-8 max-md:w-full max-md:p-2 max-md:h-max max-md:pb-4 max-md:flex ${renderImg}`}>
-      <h4 className="text-3xl max-md:text-5xl">Full Stack</h4>
-      <h5 className={`text-xl ${colors.text} max-md:text-4xl`}>Frontend</h5>
+      <h4 className="text-3xl max-md:text-3xl">Full Stack</h4>
+      <h5 className={`text-xl ${colors.text} max-md:text-2xl`}>Frontend</h5>
       <div className="flex gap-14 max-md:flex-col">
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-3xl">Lenguajes</h6>
+          <h6 className="max-md:text-xl">Lenguajes</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={htmlIcon} alt="icono de html" />
             <img className={iconStyles} src={cssIcon} alt="icono de css" />
@@ -35,7 +35,7 @@ export default function IconsSkills({colors,renderImg,stylesContainer}) {
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-3xl">Frameworks y librerías</h6>
+          <h6 className="max-md:text-xl">Frameworks y librerías</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={reactIcon} alt="icono de react" />
             <img className={iconStyles} src={bootstrapIcon} alt="icono de bootstrap" />
@@ -43,7 +43,7 @@ export default function IconsSkills({colors,renderImg,stylesContainer}) {
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-3xl">Herramientas</h6>
+          <h6 className="max-md:text-xl">Herramientas</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={sassIcon} alt="icono de sass" />
             <img className={iconStyles} src={githubIcon2} alt="icono de github" />
@@ -51,16 +51,16 @@ export default function IconsSkills({colors,renderImg,stylesContainer}) {
           </div>
         </div>
       </div>
-      <h5 className={`text-xl ${colors.text} max-md:text-4xl`}>Backend</h5>
+      <h5 className={`text-xl ${colors.text} max-md:text-2xl max-md:pt-14`}>Backend</h5>
       <div className="flex gap-14 max-md:flex-col">
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-3xl">Base de datos</h6>
+          <h6 className="max-md:text-xl">Base de datos</h6>
           <div className="flex justify-center">
             <img className={`${iconStyles} bg-white/90 rounded-md p-[1px]`} src={mongoIcon} alt="icono de MongoDB" />
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-3xl">Herramientas</h6>
+          <h6 className="max-md:text-xl">Herramientas</h6>
           <div className="flex gap-3 justify-center">
             <img className={`${iconStyles} bg-white/90 rounded-md p-[1px]`} src={nodejsIcon} alt="icono de nodejs" />
             <img className={`${iconStyles} bg-white/90 rounded-md p-[1px]`} src={expressIcon} alt="icono de express" />

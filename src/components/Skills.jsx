@@ -16,9 +16,9 @@ export default function Skills({colors,stylesContainer}) {
   }
   return (
     <>
-      <h3 className="text-5xl font-bold text-white max-md:text-5xl">Habilidades</h3>
-      <div className="relative max-md:w-full max-md:p-1">
-        <button onClick={change} className="absolute translate-x-[43.3em] translate-y-2 active:scale-110 border-[3px] border-black rounded-lg p-[2px] max-md:hidden"><img className="w-10 h-10" src={btn} alt="botón de imagen a código" /></button>
+      <h3 className="text-5xl font-bold text-white max-md:text-4xl">Habilidades</h3>
+      <div className="relative max-md:w-full">
+        <button onClick={change} className="absolute translate-x-[43.3em] translate-y-2 active:scale-110 bg-black/10 p-1 rounded-lg max-md:hidden"><img className="w-10 h-10" src={btn} alt="botón de imagen a código" /></button>
         <ImgSkills  colors={colors} renderImg={renderImg} stylesContainer={stylesContainer}/>
         <ObjSkills renderObj={renderObj} stylesContainer={stylesContainer}/>
       </div>

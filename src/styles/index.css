@@ -8,15 +8,15 @@
   font-family: 'Crete Round', serif;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: #000;
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 255, 0.291);
   border-radius: 20px;
 }
