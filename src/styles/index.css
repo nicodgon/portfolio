@@ -1,0 +1,22 @@
+@import "./normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Arsenal', sans-serif;
+  font-family: 'Crete Round', serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 255, 0.291);
+  border-radius: 20px;
+}
