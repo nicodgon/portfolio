@@ -1,7 +1,7 @@
-import whatsapp from "../assets/images/Icons/whatsapp.svg";
-import instagram from "../assets/images/Icons/instagram.svg";
-import linkedin from "../assets/images/Icons/linkedin.svg";
-import github from "../assets/images/Icons/github3.svg"
+import whatsapp from "../assets/images/icons/whatsapp.svg";
+import instagram from "../assets/images/icons/instagram.svg";
+import linkedin from "../assets/images/icons/linkedin.svg";
+import github from "../assets/images/icons/github3.svg"
 import ContactIcon from "./ContactIcon";
 
 export default function ContactIconContainer() {
