@@ -11,7 +11,7 @@ export default function ContactIconContainer() {
     img:whatsapp,
     bg:"bg-blue-300",
     colSpan:"col-span-2",
-    link:"https://wa.me/5459262027"
+    link:"https://wa.me/59262027"
   },
   {
     id:2,
