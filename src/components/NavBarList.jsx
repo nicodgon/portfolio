@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 
 export default function NavBarList(){
-  const list = ["proyectos","habilidades","formación","contacto"]
+  const list = ["proyectos","habilidades","estudios","contacto"]
   const active = ({isActive})=>{
     return(
       "hover:text-cyan-500 " + 

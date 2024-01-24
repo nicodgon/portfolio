@@ -7,7 +7,7 @@ export default function ProfilePicture({colors}){
       <img
         src={profile}
         alt="perfil"
-        className="border-solid translate-x-2"
+        className="translate-x-2"
       />
     </div>
 

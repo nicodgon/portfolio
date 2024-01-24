@@ -5,7 +5,6 @@ export default function CertificationContainer({title,img,duration}) {
   const showCertification=(img)=>{
     Swal.fire({
       imageUrl: img,
-      imageHeight: 600,
       imageWidth: 750,
       imageAlt: 'Certificación',
       width:1000,
@@ -20,13 +19,13 @@ export default function CertificationContainer({title,img,duration}) {
       <img
         className="w-56 h-32 hover:cursor-pointer max-md:hidden"
         src={img}
-        alt="Certificación Desarrollo Web"
+        alt={`Certificación ${title}`}
         onClick={()=>showCertification(img)}
       />
       <a href={img} className="hidden w-full max-md:flex">
       <img
         src={img}
-        alt="Certificación Desarrollo Web"
+        alt={`Certificación ${title}`}
       />
       </a>
       <span>{duration}</span>

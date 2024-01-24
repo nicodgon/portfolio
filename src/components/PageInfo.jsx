@@ -11,12 +11,12 @@ export default function PageInfo(){
     <>
       <h6>Esta página fue creada utilizando:</h6>
       <div className="flex justify-center">
-        <img src={reactIcon} alt="icono de react" className={styles}/>
-        <img src={htmlIcon} alt="icono de html" className={styles}/>
-        <img src={cssIcon} alt="icono de css" className={styles}/>
-        <img src={tailwindIcon} alt="icono de tailwind" className={styles}/>
-        <img src={reactRouter} alt="icono de react router" className={styles}/>
-        <img src={sweetalert2} alt="icono de sweetalert2" className={styles}/>
+        <img src={reactIcon} alt="react" className={styles}/>
+        <img src={htmlIcon} alt="html" className={styles}/>
+        <img src={cssIcon} alt="css" className={styles}/>
+        <img src={tailwindIcon} alt="tailwind" className={styles}/>
+        <img src={reactRouter} alt="react router" className={styles}/>
+        <img src={sweetalert2} alt="sweetalert2" className={styles}/>
       </div>
     </>
     )

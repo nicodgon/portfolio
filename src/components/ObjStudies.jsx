@@ -5,7 +5,7 @@ import backend from "../assets/images/certificates/Certificación-Backend.png";
 import Code from "./Code";
 import PropTypes from "prop-types"
 
-export default function ObjStudies({renderObj,stylesContainer}) {
+export default function ObjStudies({renderObj,styleContainer}) {
 
   const objects=[{
     id:1,
@@ -37,7 +37,7 @@ export default function ObjStudies({renderObj,stylesContainer}) {
   },]
 
   return (
-    <section className={`${stylesContainer} flex items-center pl-5 max-md:hidden ${renderObj}`}>
+    <section className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj}`}>
       <p>
         <span className="block">const CoderHouse = {"{"}</span>
           {objects.map(({id,title,duration,certificate,img})=>{
@@ -53,5 +53,5 @@ export default function ObjStudies({renderObj,stylesContainer}) {
 
 ObjStudies.propTypes={
   renderObj: PropTypes.node,
-  stylesContainer: PropTypes.node
+  styleContainer: PropTypes.node
 }

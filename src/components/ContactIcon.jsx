@@ -6,7 +6,7 @@ export default function ContactIcon ({title, img, bg, colSpan="", rowSpan="", li
       <img
         src={img}
         alt={title}
-        className="w-14 h-14 group-hover:scale-110 transition max-md:w-12 max-md:h-12"
+        className="w-14 h-14 group-hover:scale-110 transition max-md:w-10 max-md:h-10"
       />
     </a>
     )
