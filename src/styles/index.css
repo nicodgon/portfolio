@@ -3,13 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face{
-  font-family: 'Crete Round';
-  src: url(../font/CreteRound-Regular.ttf);
-}
-
 *{
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', serif;
 }
 
 ::-webkit-scrollbar {
