@@ -1,22 +1,25 @@
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import { navList } from "../data/navList";
+import { active } from "../helpers/active";
 
-export default function NavBarList(){
-  const list = ["proyectos","habilidades","estudios","contacto"]
-  const active = ({isActive})=>{
-    return(
-      "hover:text-cyan-500 " + 
-      (!isActive ? "" : "text-cyan-500")
-)
-  }
-  return(
+export default function NavBarList() {
+  return (
     <>
-      {list.map((element)=>{
-        return(
+      {navList.map((element) => {
+        return (
           <li key={element}>
-          {element != "proyectos" ? <NavLink className={active} to={`/${element}`}>{element.toUpperCase()}</NavLink> : <NavLink className={active} to="/">{element.toUpperCase()}</NavLink> }
+            {element != "proyectos" ? (
+              <NavLink className={active} to={`/${element}`}>
+                {element.toUpperCase()}
+              </NavLink>
+            ) : (
+              <NavLink className={active} to="/">
+                {element.toUpperCase()}
+              </NavLink>
+            )}
           </li>
-        )
+        );
       })}
     </>
-  )
+  );
 }

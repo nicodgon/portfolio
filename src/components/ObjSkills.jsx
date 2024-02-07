@@ -1,8 +1,10 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 
-export default function ObjSkills({renderObj,styleContainer}) {
+export default function ObjSkills({ renderObj, styleContainer }) {
   return (
-    <section className={`${styleContainer} items-center pl-5 ${renderObj} max-md:hidden`}>
+    <section
+      className={`${styleContainer} items-center pl-5 ${renderObj} max-md:hidden`}
+    >
       <p>
         <span className="block">const fullStack = {"{"}</span>
         <span className="block pl-10">frontend: {"{"}</span>
@@ -32,7 +34,7 @@ export default function ObjSkills({renderObj,styleContainer}) {
   );
 }
 
-ObjSkills.propTypes={
+ObjSkills.propTypes = {
   renderObj: PropTypes.node,
-  styleContainer: PropTypes.node
-}
+  styleContainer: PropTypes.node,
+};
