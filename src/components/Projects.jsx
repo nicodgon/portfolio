@@ -11,7 +11,7 @@ export default function Projects() {
       >
         <a href={url} target="_blank" rel="noreferrer" className="peer">
           <img
-            className="h-[calc(1080px/5)] w-[calc(1920px/5)] cursor-pointer hover:blur transition rounded md:max-xl:h-[calc(1080px/3)] md:max-xl:w-[calc(1920px/3)] max-md:w-full max-md:h-auto"
+            className="w-[calc(1920px/5)] cursor-pointer hover:blur transition rounded md:max-xl:h-[calc(1080px/3)] md:max-xl:w-[calc(1920px/3)] max-md:w-full max-md:h-auto"
             src={project}
             alt="página web"
           />

@@ -7,13 +7,14 @@ import htmlIcon from "../assets/images/icons/html.svg";
 import javaScriptIcon from "../assets/images/icons/javascript.svg";
 import reactIcon from "../assets/images/icons/react.svg";
 import sassIcon from "../assets/images/icons/sass.svg";
+import CarritoDeCompras from "../assets/images/projects/carrito-de-compras.png";
 
 export const projects = [
   {
     id: 1,
     title: "cakeShop",
     project: cakeShop,
-    url: "https://deluxe-profiterole-26283c.netlify.app/",
+    url: "https://deluxe-profiterole-26283c.netlify.app",
     tools: [
       {
         id: 1,
@@ -34,7 +35,7 @@ export const projects = [
     id: 2,
     title: "gamerShop",
     project: gamerShop,
-    url: "https://precious-figolla-bd6d41.netlify.app/",
+    url: "https://precious-figolla-bd6d41.netlify.app",
     tools: [
       {
         id: 1,
@@ -55,7 +56,7 @@ export const projects = [
     id: 3,
     title: "pizzaShop",
     project: pizzaShop,
-    url: "https://calm-conkies-e1909a.netlify.app/",
+    url: "https://calm-conkies-e1909a.netlify.app",
     tools: [
       {
         id: 1,
@@ -80,4 +81,25 @@ export const projects = [
     ],
     githubUrl: "https://github.com/nicodgon/pizzashop.git",
   },
+  {
+    id: 4,
+    title: "CarritoDeCompras",
+    project: CarritoDeCompras,
+    url: "https://stately-malabi-29d286.netlify.app",
+    tools: [
+      {
+        id: 1,
+        icon: htmlIcon,
+      },
+      {
+        id: 2,
+        icon: cssIcon,
+      },
+      {
+        id: 3,
+        icon: javaScriptIcon,
+      },
+    ],
+    githubUrl: "https://github.com/nicodgon/carrito-de-compras.git",
+  }
 ];

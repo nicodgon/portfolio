@@ -15,7 +15,7 @@ function App() {
   };
   return (
     <div
-      className={`flex flex-col bg-gradient-to-l ${colors.bg.mainColor} h-screen max-xl:h-max`}
+      className={`flex flex-col bg-gradient-to-l ${colors.bg.mainColor} min-h-screen max-xl:h-max`}
     >
       <NavBar />
       <BackgroundDecoration />
