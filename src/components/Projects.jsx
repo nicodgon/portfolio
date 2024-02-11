@@ -9,7 +9,7 @@ export default function Projects() {
         key={id}
         className="flex flex-col relative items-center justify-center max-md:px-1"
       >
-        <a href={url} target="_blank" rel="noreferrer" className="peer">
+        <a href={url} target="_blank" rel="noreferrer noopener" className="peer">
           <img
             className="w-[calc(1920px/5)] cursor-pointer hover:blur transition rounded md:max-xl:h-[calc(1080px/3)] md:max-xl:w-[calc(1920px/3)] max-md:w-full max-md:h-auto"
             src={project}
@@ -19,7 +19,7 @@ export default function Projects() {
         <div className="gap-6 absolute hidden peer-hover:flex hover:flex rounded-lg hover:bg-black/40 hover:p-1 transition-all max-xl:flex max-xl:static max-xl:p-1 max-xl:bg-black/40 max-md:gap-4">
           <ProjectTools tools={tools} />
         </div>
-        <a href={githubUrl} target="_blank" rel="noreferrer">
+        <a href={githubUrl} target="_blank" rel="noreferrer noopener">
           <img
             src={githubIcon}
             alt="github"

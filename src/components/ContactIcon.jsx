@@ -13,7 +13,7 @@ export default function ContactIcon({
       className={`${bg} ${colSpan} ${rowSpan} rounded-xl p-2 group max-md:bg-white/50 max-md:rounded-full`}
       href={link}
       target="_blank"
-      rel="noreferrer"
+      rel="noreferrer noopener"
     >
       <img
         src={img}

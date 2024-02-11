@@ -6,11 +6,11 @@ import reactRouter from "../assets/images/icons/react-router.svg";
 import sweetalert2 from "../assets/images/icons/sweetalert2.svg";
 
 export default function PageInfo() {
-  const styles = "w-10 h-10 max-md:w-[11%] max-md:h-auto";
+  const styles = "w-8 h-8 max-md:w-[11%] max-md:h-auto";
   return (
     <>
       <h6>Esta página fue creada utilizando:</h6>
-      <div className="flex justify-center">
+      <div className="flex gap-1 justify-center">
         <img src={reactIcon} alt="react" className={styles} />
         <img src={htmlIcon} alt="html" className={styles} />
         <img src={cssIcon} alt="css" className={styles} />
