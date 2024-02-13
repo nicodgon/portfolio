@@ -8,7 +8,7 @@ export default function ObjStudies({ renderObj, styleContainer }) {
       className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj}`}
     >
       <p>
-        <span className="block">const CoderHouse = {"{"}</span>
+        <span className="block">const Coderhouse = {"{"}</span>
         {listObjects.map(({ id, title, duration, certificate, img }) => {
           return (
             <Code

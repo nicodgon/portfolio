@@ -1,6 +1,6 @@
 import Swal from "sweetalert2";
 
-export const alertImg = (img) => {
+export const alertCertificate = (img) => {
   Swal.fire({
     imageUrl: img,
     imageWidth: 750,

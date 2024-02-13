@@ -1,41 +1,13 @@
 import PropTypes from "prop-types";
-import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import useSendMail from "../hooks/useSendEmail";
 
 export default function ContactForm({ colors }) {
-  const form = useRef();
-  console.log(import.meta.env.VITE_SERVICE_ID);
-  console.log(import.meta.env.VITE_TEMPLATE_ID);
-  console.log(import.meta.env.VITE_PUBLIC_KEY);
-
-  const sendEmail = (event) => {
-    event.preventDefault();
-
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        form.current,
-        {
-          publicKey: import.meta.env.VITE_PUBLIC_KEY,
-        }
-      )
-      .then(
-        () => {
-          console.log("¡El mensaje ha sido enviado con exito!");
-          form.current.reset();
-        },
-        (error) => {
-          console.log("Ha sucedido un error al enviar el mensaje", error.text);
-        }
-      );
-  };
+  const {form, sendEmail}=useSendMail()
 
   return (
     <form
       ref={form}
       onSubmit={sendEmail}
-      
       className="flex flex-col bg-black/15 w-96 h-[26em] px-16 gap-6 justify-center rounded-3xl max-md:px-8 max-md:w-full"
     >
       <div className="flex flex-col max-md:items-start">
