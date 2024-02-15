@@ -9,6 +9,7 @@ function App() {
     bg: {
       mainColor: "bg-gray-900",
       cyan500: "bg-cyan-500",
+      contactIconContainer: "bg-blue-300",
     },
     border: "border-gray-800",
     text: "text-cyan-500",

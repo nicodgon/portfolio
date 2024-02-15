@@ -7,7 +7,7 @@ export default function AboutMe({ colors }) {
   const { expand, btn, height, renderInfo } = useExpandInfo();
   return (
     <div
-      className={`flex flex-col items-center w-3/12 max-xl:w-full ${height}`}
+      className={`flex flex-col items-center w-3/12 max-xl:w-full ${height} max-md:-z-10`}
     >
       <section className="w-[20em] h-[41em] rounded-[3em] flex justify-center items-center flex-col text-white mt-20 relative z-10 overflow-hidden md:max-xl:h-[20em] max-xl:from-transparent max-xl:w-full max-md:overflow-visible max-md:h-[43em]">
         <span className="absolute w-[300%] h-[300%] animate-spin bg-gradient-to-l from-gray-900 to-purple-950 from-20% z-20 max-xl:hidden"></span>
