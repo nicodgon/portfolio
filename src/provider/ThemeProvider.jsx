@@ -47,7 +47,7 @@ export function ThemeProvider({ children }) {
           cv: "bg-black",
           contactEmail: "bg-gray-300",
           container: "bg-violet-200",
-          span: "bg-gradient-to-l from-gray-500 to-pink-600",
+          span: "bg-gradient-to-l from-violet-500 to-pink-600",
           btn: "bg-purple-700",
           btnSpan: "bg-violet-950",
         },
