@@ -19,7 +19,7 @@ export function ThemeProvider({ children }) {
       btnSpan: "bg-sky-400",
     },
     bgMd: {
-      contactIconContainer: "max-md:bg-white/25",
+      contactIconContainer: "max-md:bg-white/50",
     },
     border: "",
     text: {
@@ -50,6 +50,9 @@ export function ThemeProvider({ children }) {
           btn: "bg-purple-700",
           btnSpan: "bg-violet-950",
         },
+        bgMd: {
+          contactIconContainer: "max-md:bg-purple-600/50",
+        },
         border: "border-2 rounded border-black/30",
         text: {
           normal: "text-black/70",
@@ -79,7 +82,7 @@ export function ThemeProvider({ children }) {
           btnSpan: "bg-sky-400",
         },
         bgMd: {
-          contactIconContainer: "max-md::bg-white/50",
+          contactIconContainer: "max-md:bg-white/50",
         },
         border: "",
         text: {
