@@ -63,7 +63,7 @@ export function ThemeProvider({ children }) {
           cv: "text-white/70",
         },
         textXl: {
-          normal: "text-black/70",
+          normal: "max-xl:text-black/70",
           textDecoration: "max-xl:text-purple-800",
           btnDecoration: "max-xl:text-purple-800",
         },
