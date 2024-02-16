@@ -22,9 +22,14 @@ export default function Projects({ colors }) {
             alt="página web"
           />
         </a>
-        <div className="gap-6 absolute hidden peer-hover:flex hover:flex rounded-lg hover:bg-black/40 hover:p-1 transition-all max-xl:flex max-xl:static max-xl:p-1 max-xl:bg-black/40 max-md:gap-4">
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="gap-6 absolute hidden peer-hover:flex hover:flex rounded-lg peer-hover:bg-black/40 peer-hover:p-1 hover:bg-black/40 hover:p-1 transition-all max-xl:flex max-xl:static max-xl:p-1 max-xl:bg-black/40 max-md:gap-4"
+        >
           <ProjectTools tools={tools} />
-        </div>
+        </a>
         <a href={githubUrl} target="_blank" rel="noreferrer noopener">
           <img
             src={githubIcon}
