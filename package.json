@@ -15,6 +15,7 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.2",
+    "react-simple-typewriter": "^5.0.1",
     "sweetalert2": "^11.10.3"
   },
   "devDependencies": {

@@ -2,10 +2,10 @@ import Code from "./Code";
 import PropTypes from "prop-types";
 import { listObjects } from "../data/listObjects";
 
-export default function ObjStudies({ renderObj, styleContainer }) {
+export default function ObjStudies({ colors, renderObj, styleContainer }) {
   return (
     <section
-      className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj}`}
+      className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj} ${colors.text.normal}`}
     >
       <p>
         <span className="block">const Coderhouse = {"{"}</span>
@@ -27,6 +27,7 @@ export default function ObjStudies({ renderObj, styleContainer }) {
 }
 
 ObjStudies.propTypes = {
+  colors: PropTypes.object,
   renderObj: PropTypes.node,
   styleContainer: PropTypes.node,
 };

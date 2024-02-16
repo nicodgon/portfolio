@@ -3,28 +3,21 @@ import NavBar from "./components/NavBar";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
 import BackgroundDecoration from "./components/BackgroundDecoration";
+import { useThemeContext } from "./hooks/useThemeContext.js";
 
 function App() {
-  const colors = {
-    bg: {
-      mainColor: "bg-gray-900",
-      cyan500: "bg-cyan-500",
-      contactIconContainer: "bg-blue-300",
-    },
-    border: "border-gray-800",
-    text: "text-cyan-500",
-  };
+  const { colors } = useThemeContext();
   return (
     <div
       className={`flex flex-col bg-gradient-to-l ${colors.bg.mainColor} min-h-screen max-xl:h-max`}
     >
-      <NavBar />
+      <NavBar colors={colors} />
       <BackgroundDecoration />
       <div className="flex max-xl:flex-col md:max-xl:items-center max-xl:mt-30 z-20">
         <AboutMe colors={colors} />
         <Main colors={colors} />
       </div>
-      <Footer />
+      <Footer colors={colors} />
     </div>
   );
 }

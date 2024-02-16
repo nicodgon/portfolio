@@ -1,17 +1,23 @@
 import githubIcon from "../assets/images/icons/github.svg";
 import { projects } from "../data/projects";
 import ProjectTools from "./ProjectTools";
+import PropTypes from "prop-types";
 
-export default function Projects() {
+export default function Projects({ colors }) {
   return projects.map(({ id, project, url, tools, githubUrl }) => {
     return (
       <div
         key={id}
         className="flex flex-col relative items-center justify-center max-md:px-1"
       >
-        <a href={url} target="_blank" rel="noreferrer noopener" className="peer">
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer noopener"
+          className={`${colors.border} peer hover:blur cursor-pointer transition`}
+        >
           <img
-            className="w-[calc(1920px/5)] cursor-pointer hover:blur transition rounded md:max-xl:h-[calc(1080px/3)] md:max-xl:w-[calc(1920px/3)] max-md:w-full max-md:h-auto"
+            className="w-[calc(1920px/5)] md:max-xl:h-[calc(1080px/3)] md:max-xl:w-[calc(1920px/3)] max-md:w-full max-md:h-auto"
             src={project}
             alt="página web"
           />
@@ -30,3 +36,7 @@ export default function Projects() {
     );
   });
 }
+
+Projects.propTypes = {
+  colors: PropTypes.object,
+};

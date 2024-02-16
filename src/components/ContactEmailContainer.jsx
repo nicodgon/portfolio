@@ -1,11 +1,12 @@
 import { useChecked } from "../hooks/useChecked";
 import CopyToClipboard from "react-copy-to-clipboard";
 import email from "../assets/images/icons/email.svg";
+import PropTypes from "prop-types";
 
-export default function ContactEmailContainer() {
+export default function ContactEmailContainer({colors}) {
   const { img, change } = useChecked();
   return (
-    <div className="bg-white/50 rounded-xl p-2 w-full flex justify-between items-center max-md:w-11/12">
+    <div className={`${colors.bg.contactEmail} rounded-xl p-2 w-full flex justify-between items-center max-md:w-11/12`}>
       <div className="flex items-center gap-4">
         <a
           href="https://login.live.com"
@@ -24,3 +25,7 @@ export default function ContactEmailContainer() {
     </div>
   );
 }
+
+ContactEmailContainer.propTypes = {
+  colors: PropTypes.object,
+};

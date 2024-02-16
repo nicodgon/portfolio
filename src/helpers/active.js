@@ -1,3 +1,6 @@
 export const active = ({ isActive }) => {
-  return "hover:text-cyan-500 " + (!isActive ? "" : "text-cyan-500");
+  return (
+    "hover:font-bold hover:text-purple-600 " +
+    (!isActive ? "" : "text-purple-600 font-bold")
+  );
 };

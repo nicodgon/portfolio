@@ -20,10 +20,12 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
 
   return (
     <section
-      className={`${styleContainer} items-center justify-center flex-col gap-8 max-md:w-full max-md:p-2 max-md:h-max max-md:pb-4 max-md:flex ${renderImg}`}
+      className={`${styleContainer} ${colors.text.normal} items-center justify-center flex-col gap-8 max-md:w-full max-md:p-2 max-md:h-max max-md:pb-4 max-md:flex ${renderImg}`}
     >
       <h4 className="text-3xl max-md:text-3xl">Full Stack</h4>
-      <h5 className={`text-xl ${colors.text} max-md:text-2xl`}>Frontend</h5>
+      <h5 className={`text-xl ${colors.text.decorationImg} max-md:text-2xl`}>
+        Frontend
+      </h5>
       <div className="flex gap-14 max-md:flex-col">
         <div className={iconStylesContainer}>
           <h6 className="max-md:text-xl">Lenguajes</h6>
@@ -51,7 +53,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
             <img className={iconStyles} src={sassIcon} alt="sass" />
             <img className={iconStyles} src={githubIcon2} alt="github" />
             <img
-              className={`${iconStyles} ${colors.bg.cyan500} rounded-md`}
+              className={`${iconStyles} bg-cyan-500 rounded-md`}
               src={vscIcon}
               alt="visual studio code"
             />
@@ -59,7 +61,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
         </div>
       </div>
       <h5
-        className={`text-xl ${colors.text} pt-6 max-md:text-2xl max-md:pt-14`}
+        className={`text-xl ${colors.text.decorationImg} pt-6 max-md:text-2xl max-md:pt-14`}
       >
         Backend
       </h5>

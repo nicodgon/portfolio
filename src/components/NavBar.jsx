@@ -1,8 +1,9 @@
 import NavList from "./NavBarList";
 import Menu from "../assets/images/icons/menu.svg";
 import { useExpandNavBar } from "../hooks/useExpandNavBar";
+import PropTypes from "prop-types";
 
-export default function NavBar() {
+export default function NavBar({ colors }) {
   const { menu, expand } = useExpandNavBar();
   return (
     <header>
@@ -14,7 +15,7 @@ export default function NavBar() {
           <img src={Menu} alt="menú" />
         </button>
         <ol
-          className={`flex gap-14 text-lg text-white h-10 items-end max-md:pt-4 max-md:gap-4 max-md:h-48 max-md:flex-col max-md:items-start ${menu}`}
+          className={`flex gap-14 text-lg ${colors.text.normal} h-10 items-end max-md:pt-4 max-md:gap-4 max-md:h-48 max-md:flex-col max-md:items-start ${menu}`}
         >
           <NavList />
         </ol>
@@ -22,3 +23,7 @@ export default function NavBar() {
     </header>
   );
 }
+
+NavBar.propTypes = {
+  colors: PropTypes.object,
+};
