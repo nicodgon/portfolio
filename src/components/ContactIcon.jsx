@@ -10,7 +10,7 @@ export default function ContactIcon({
 }) {
   return (
     <a
-      className={`${colors.bg.contactIconContainer} ${colSpan} ${rowSpan} rounded-xl p-2 group max-md:bg-white/50 max-md:rounded-full ${colors.bgMd.contactIconContainer}`}
+      className={`${colors.bg.contactIconContainer} ${colSpan} ${rowSpan} rounded-xl p-2 group max-md:bg-white/50 max-md:rounded-full`}
       href={link}
       target="_blank"
       rel="noreferrer noopener"

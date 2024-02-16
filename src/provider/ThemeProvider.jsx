@@ -50,9 +50,6 @@ export function ThemeProvider({ children }) {
           btn: "bg-purple-700",
           btnSpan: "bg-violet-950",
         },
-        bgMd: {
-          contactIconContainer: "max-md:bg-purple-600",
-        },
         border: "border-2 rounded border-black/30",
         text: {
           normal: "text-black/70",
