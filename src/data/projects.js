@@ -14,7 +14,7 @@ export const projects = [
     id: 1,
     title: "cakeShop",
     project: cakeShop,
-    url: "https://deluxe-profiterole-26283c.netlify.app",
+    url: "https://cakeshop.ndgonzalez.com",
     tools: [
       {
         id: 1,
@@ -35,7 +35,7 @@ export const projects = [
     id: 2,
     title: "gamerShop",
     project: gamerShop,
-    url: "https://precious-figolla-bd6d41.netlify.app",
+    url: "https://gamershop.ndgonzalez.com",
     tools: [
       {
         id: 1,
@@ -56,7 +56,7 @@ export const projects = [
     id: 3,
     title: "pizzaShop",
     project: pizzaShop,
-    url: "https://calm-conkies-e1909a.netlify.app",
+    url: "https://pizzashop.ndgonzalez.com",
     tools: [
       {
         id: 1,
@@ -85,7 +85,7 @@ export const projects = [
     id: 4,
     title: "CarritoDeCompras",
     project: CarritoDeCompras,
-    url: "https://stately-malabi-29d286.netlify.app",
+    url: "https://shoestore.ndgonzalez.com",
     tools: [
       {
         id: 1,

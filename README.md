@@ -1,17 +1,17 @@
-# Mi portfolio <a href="https://heroic-jelly-61447b.netlify.app"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a>
+# Mi portfolio <a href="https://ndgonzalez.com"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a>
 ------------
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F70066&random=false&width=435&lines=MIS+PROYECTOS)](https://git.io/typing-svg)
-- #### Tienda de pasteles:  <a href="http://deluxe-profiterole-26283c.netlify.app/"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/cakeshop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
+- #### Tienda de pasteles:  <a href="http://cakeshop.ndgonzalez.com/"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/cakeshop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
 </a>
 
-- #### Tienda gamer:  <a href="https://precious-figolla-bd6d41.netlify.app"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/gamershop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
+- #### Tienda gamer:  <a href="https://gamershop.ndgonzalez.com"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/gamershop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
 </a>
 
-- #### Tienda de pizza:  <a href="https://calm-conkies-e1909a.netlify.app"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/pizzashop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
+- #### Tienda de pizza:  <a href="https://pizzashop.ndgonzalez.com"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/pizzashop.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
 </a>
 
-- #### Tienda de calzado:  <a href="https://stately-malabi-29d286.netlify.app"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/carrito-de-compras.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
+- #### Tienda de calzado:  <a href="https://shoestore.ndgonzalez.com"><img alt="Página web" src="https://img.shields.io/badge/P%C3%A1gina-%23f00?style=flat-square&logo=google&logoColor=%23000"></a> <a href="https://github.com/nicodgon/carrito-de-compras.git"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23000?style=flat-square&logo=github">
 </a>
 
 ------------
