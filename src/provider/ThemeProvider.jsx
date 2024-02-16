@@ -18,8 +18,8 @@ export function ThemeProvider({ children }) {
       btn: "bg-white/10",
       btnSpan: "bg-sky-400",
     },
-    bgXl: {
-      contactIconContainer: "max-xl:bg-white/50",
+    bgMd: {
+      contactIconContainer: "max-md:bg-white/25",
     },
     border: "",
     text: {
@@ -37,22 +37,21 @@ export function ThemeProvider({ children }) {
   });
   const handleChange = () => {
     if (theme == sun) {
-      // MODO CLARO
       setTheme(moon);
       setColors({
         bg: {
           mainColor: "bg-white",
           aboutMe: "bg-purple-700",
-          contactIconContainer: "bg-purple-400",
+          contactIconContainer: "bg-purple-600/50",
           cv: "bg-black",
-          contactEmail: "bg-gray-300",
-          container: "bg-violet-200",
+          contactEmail: "bg-gray-300/50",
+          container: "bg-violet-200/50",
           span: "bg-gradient-to-l from-violet-500 to-pink-600",
           btn: "bg-purple-700",
           btnSpan: "bg-violet-950",
         },
-        bgXl: {
-          contactIconContainer: "max-md:bg-purple-500",
+        bgMd: {
+          contactIconContainer: "max-md:bg-purple-600",
         },
         border: "border-2 rounded border-black/30",
         text: {
@@ -69,7 +68,6 @@ export function ThemeProvider({ children }) {
         },
       });
     } else {
-      // MODO OSCURO
       setTheme(sun);
       setColors({
         bg: {
@@ -83,8 +81,8 @@ export function ThemeProvider({ children }) {
           btn: "bg-white/10",
           btnSpan: "bg-sky-400",
         },
-        bgXl: {
-          contactIconContainer: "max-xl:bg-white/50",
+        bgMd: {
+          contactIconContainer: "max-md::bg-white/50",
         },
         border: "",
         text: {

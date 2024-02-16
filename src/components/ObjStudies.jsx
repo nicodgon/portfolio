@@ -5,10 +5,10 @@ import { listObjects } from "../data/listObjects";
 export default function ObjStudies({ colors, renderObj, styleContainer }) {
   return (
     <section
-      className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj} ${colors.text.normal}`}
+      className={`${styleContainer} flex items-center pl-5 max-md:hidden ${renderObj}`}
     >
       <p>
-        <span className="block">const Coderhouse = {"{"}</span>
+        <span className={`block ${colors.text.normal}`}>const Coderhouse = {"{"}</span>
         {listObjects.map(({ id, title, duration, certificate, img }) => {
           return (
             <Code
@@ -17,10 +17,11 @@ export default function ObjStudies({ colors, renderObj, styleContainer }) {
               duration={duration}
               certificate={certificate}
               img={img}
+              colors={colors}
             />
           );
         })}
-        <span>{"}"};</span>
+        <span className={colors.text.normal}>{"}"};</span>
       </p>
     </section>
   );

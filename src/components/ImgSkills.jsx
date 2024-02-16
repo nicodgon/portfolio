@@ -20,15 +20,15 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
 
   return (
     <section
-      className={`${styleContainer} ${colors.text.normal} items-center justify-center flex-col gap-8 max-md:w-full max-md:p-2 max-md:h-max max-md:pb-4 max-md:flex ${renderImg}`}
+      className={`${styleContainer} items-center justify-center flex-col gap-8 max-md:w-full max-md:p-2 max-md:h-max max-md:pb-4 max-md:flex ${renderImg}`}
     >
-      <h4 className="text-3xl max-md:text-3xl">Full Stack</h4>
+      <h4 className={`text-3xl max-md:text-3xl ${colors.text.normal}`}>Full Stack</h4>
       <h5 className={`text-xl ${colors.text.decorationImg} max-md:text-2xl`}>
         Frontend
       </h5>
       <div className="flex gap-14 max-md:flex-col">
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-xl">Lenguajes</h6>
+          <h6 className={`max-md:text-xl ${colors.text.normal}`}>Lenguajes</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={htmlIcon} alt="html" />
             <img className={iconStyles} src={cssIcon} alt="css" />
@@ -40,7 +40,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-xl">Frameworks y librerías</h6>
+          <h6 className={`${colors.text.normal} max-md:text-xl`}>Frameworks y librerías</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={reactIcon} alt="react" />
             <img className={iconStyles} src={bootstrapIcon} alt="bootstrap" />
@@ -48,7 +48,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-xl">Herramientas</h6>
+          <h6 className={`max-md:text-xl ${colors.text.normal}`}>Herramientas</h6>
           <div className="flex gap-3 justify-center">
             <img className={iconStyles} src={sassIcon} alt="sass" />
             <img className={iconStyles} src={githubIcon2} alt="github" />
@@ -67,7 +67,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
       </h5>
       <div className="flex gap-14 max-md:flex-col">
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-xl">Base de datos</h6>
+          <h6 className={`max-md:text-xl ${colors.text.normal}`}>Base de datos</h6>
           <div className="flex justify-center">
             <img
               className={`${iconStyles} bg-white/90 rounded-md p-[1px]`}
@@ -77,7 +77,7 @@ export default function IconsSkills({ colors, renderImg, styleContainer }) {
           </div>
         </div>
         <div className={iconStylesContainer}>
-          <h6 className="max-md:text-xl">Herramientas</h6>
+          <h6 className={`max-md:text-xl ${colors.text.normal}`}>Herramientas</h6>
           <div className="flex gap-3 justify-center">
             <img
               className={`${iconStyles} bg-white/90 rounded-md p-[1px]`}
