@@ -7,7 +7,9 @@ import htmlIcon from "../assets/images/icons/html.svg";
 import javaScriptIcon from "../assets/images/icons/javascript.svg";
 import reactIcon from "../assets/images/icons/react.svg";
 import sassIcon from "../assets/images/icons/sass.svg";
-import CarritoDeCompras from "../assets/images/projects/carrito-de-compras.png";
+import reactRouter from "../assets/images/icons/react-router.svg";
+import sweetalert2 from "../assets/images/icons/sweetalert2.png";
+import carritoDeCompras from "../assets/images/projects/carrito-de-compras.png";
 
 export const projects = [
   {
@@ -19,14 +21,27 @@ export const projects = [
       {
         id: 1,
         icon: reactIcon,
+        alt: "react",
       },
       {
         id: 2,
         icon: htmlIcon,
+        alt: "HTML",
       },
       {
         id: 3,
         icon: cssIcon,
+        alt: "CSS",
+      },
+      {
+        id: 4,
+        icon: reactRouter,
+        alt: "react router",
+      },
+      {
+        id: 5,
+        icon: sweetalert2,
+        alt: "sweetalert2",
       },
     ],
     githubUrl: "https://github.com/nicodgon/cakeshop.git",
@@ -40,14 +55,27 @@ export const projects = [
       {
         id: 1,
         icon: reactIcon,
+        alt: "react",
       },
       {
         id: 2,
         icon: htmlIcon,
+        alt: "HTML",
       },
       {
         id: 3,
         icon: cssIcon,
+        alt: "CSS",
+      },
+      {
+        id: 4,
+        icon: reactRouter,
+        alt: "react router",
+      },
+      {
+        id: 5,
+        icon: sweetalert2,
+        alt: "sweetalert2",
       },
     ],
     githubUrl: "https://github.com/nicodgon/gamershop.git",
@@ -61,22 +89,27 @@ export const projects = [
       {
         id: 1,
         icon: htmlIcon,
+        alt: "HTML",
       },
       {
         id: 2,
         icon: cssIcon,
+        alt: "CSS",
       },
       {
         id: 3,
         icon: sassIcon,
+        alt: "sass",
       },
       {
         id: 4,
         icon: bootstrapIcon,
+        alt: "bootstrap",
       },
       {
         id: 5,
         icon: javaScriptIcon,
+        alt: "javaScript",
       },
     ],
     githubUrl: "https://github.com/nicodgon/pizzashop.git",
@@ -84,20 +117,28 @@ export const projects = [
   {
     id: 4,
     title: "CarritoDeCompras",
-    project: CarritoDeCompras,
+    project: carritoDeCompras,
     url: "https://shoestore.ndgonzalez.com",
     tools: [
       {
         id: 1,
         icon: htmlIcon,
+        alt: "HTML",
       },
       {
         id: 2,
         icon: cssIcon,
+        alt: "CSS",
       },
       {
         id: 3,
         icon: javaScriptIcon,
+        alt: "javaScript",
+      },
+      {
+        id: 4,
+        icon: bootstrapIcon,
+        alt: "bootstrap",
       },
     ],
     githubUrl: "https://github.com/nicodgon/carrito-de-compras.git",

@@ -3,7 +3,7 @@ import htmlIcon from "../assets/images/icons/html.svg";
 import reactIcon from "../assets/images/icons/react.svg";
 import tailwindIcon from "../assets/images/icons/tailwind.svg";
 import reactRouter from "../assets/images/icons/react-router.svg";
-import sweetalert2 from "../assets/images/icons/sweetalert2.svg";
+import sweetalert2 from "../assets/images/icons/sweetalert2.png";
 
 export default function PageInfo() {
   const styles = "w-8 h-8 max-md:w-[11%] max-md:h-auto";

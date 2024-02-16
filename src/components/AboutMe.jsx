@@ -22,10 +22,10 @@ export default function AboutMe({ colors }) {
         >
           <ProfilePicture />
           <button
-            className={`flex items-center justify-center bg-black rounded-full absolute w-12 h-12 mt-40 ml-56 transition md:max-xl:-ml-72 hover:scale-110 hover:cursor-pointer`}
+            className={`flex items-center justify-center bg-gray-800 rounded-full absolute w-12 h-12 mt-40 ml-56 transition md:max-xl:-ml-72 hover:scale-110 hover:cursor-pointer`}
             onClick={() => handleChange()}
           >
-            <img src={theme} alt="tema de la página" className="w-8" />
+            <img src={theme} alt="tema de la página" className="w-7" />
           </button>
           <button
             className={`hidden w-12 h-12 my-2 justify-center items-center rounded-full bg-black max-md:flex`}
