@@ -22,16 +22,15 @@ export default function ProfilePicture({ colors, renderInfo }) {
         Me apasiona estar siempre aprendiendo nuevas tecnologías. Soy una
         persona muy detallista con todos mis trabajos y amo lo que hago.
       </p>
-      <div
+      <a
+        href="/downloads/currículum-programación.pdf" download
         className={`border-2 ${colors.border} ${colors.text.cv} rounded-full w-40 h-12 flex justify-center items-center text-lg mt-2 relative overflow-hidden group z-50 active:border-black ${colors.textXl.btnDecoration}`}
       >
-        <a href="/downloads/currículum-programación.pdf" download>
           Descargar CV
-        </a>
         <span
           className={`absolute w-40 h-12 ${colors.bg.cv} translate-x-40 rounded-full group-hover:translate-x-0 transition duration-500 -z-50 md:max-xl:bg-gray-800`}
         ></span>
-      </div>
+      </a>
     </div>
   );
 }
