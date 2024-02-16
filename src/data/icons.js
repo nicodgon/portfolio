@@ -28,6 +28,6 @@ export const icons = [
     id: 4,
     title: "instagram",
     img: instagram,
-    link: "https://www.instagram.com/nicolasgonzalez__1",
+    link: "https://www.instagram.com/nicolasdg_dev/",
   },
 ];
