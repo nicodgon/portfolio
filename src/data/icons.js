@@ -16,7 +16,7 @@ export const icons = [
     title: "linkedin",
     img: linkedin,
     rowSpan: "row-span-2",
-    link: "https://www.linkedin.com/in/nicol%C3%A1s-gonz%C3%A1lez-7a0544256/",
+    link: "www.linkedin.com/in/nd-gonzalez",
   },
   {
     id: 3,
